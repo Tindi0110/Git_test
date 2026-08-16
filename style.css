@@ -1,39 +1,65 @@
-.recipe {
-    border: 1px solid #ccc;
-    box-shadow : 2px 2px 5px rebeccapurple;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.header {
+    background-color: #0a0a2b;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
-h1, h2 {
-    color:rgb(2, 36, 36);
-    border: 1px solid #ccc;
-    background-color: #0d0abb;
-    width: 150px;
-    text-align: center;
+#logo{
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 2px;
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px 10px 10px 10px;
 
 }
-.box {
-    border: 1px solid rebeccapurple;
-    box-shadow : 2px 2px 5px rgb(184, 144, 224);
-    padding: 40px;
-    margin: 40px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    width: 300px;
+h1{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.card{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+
+}
+.squere-box{
+    width: 150px;
     height: 150px;
+    border: 4px solid blue;
+    margin-bottom: 10px;
+    background-color: #e3e3ec;
+
 }
-.alternate {
-    box-sizing: border-box;
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
-.flex-container {
-    display : flex;
+.content{
+    background-color: #8a8a8e;
 }
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  
-  flex: 1; 
-}
+#author
