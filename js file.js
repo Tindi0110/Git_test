@@ -1,8 +1,6 @@
-const button = document.querySelector("button")
+const song ="nimpende nani";
+const score = 9;
+const highestScore = 10;
+const output = `I love the song ${song}. I give it a score of ${(score/highestScore)*100 }%`;
 
-function greet(){
-    const name = prompt("What is your name?")
-    const greeting = document.querySelector("#greetings")
-    greeting.textContent = `Hello ${name}, i hope you are doing so good`
-}
-button.addEventListener("click", greet)
+console.log(output);
