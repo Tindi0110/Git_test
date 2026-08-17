@@ -1,6 +1,8 @@
-const song ="nimpende nani";
-const score = 9;
-const highestScore = 10;
-const output = `I love the song ${song}. I give it a score of ${(score/highestScore)*100 }%`;
+let text1 ="hello";
+let text2 ="world!";
+let greet = `wakenya, ${text1}  ${text2} kwenu nyote `;
+console.log(greet);
 
-console.log(output);
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7);
+console.log(part);
