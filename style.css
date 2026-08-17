@@ -1,65 +1,17 @@
-.header {
-    background-color: #0a0a2b;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-#logo{
-    margin: 10px 0 10px 0;
-    padding: 10px;
-}
-#links{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 10px;
-    margin: 10px 10px 10px 10px;
-}
 button{
+    border: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px aqua;
     background-color: blue;
     color: white;
-    padding: 2px;
-}
-#img{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 10px 10px 10px 10px;
-
-}
-h1{
     text-align: center;
+    font-weight: bolder;
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
 }
-.card-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-}
-.card{
-   display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
+button:hover{
+    background-color: #5dc1b8;
 
 }
-.squere-box{
-    width: 150px;
-    height: 150px;
-    border: 4px solid blue;
-    margin-bottom: 10px;
-    background-color: #e3e3ec;
 
-}
-.card-container{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    width: 1000px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-.content{
-    background-color: #8a8a8e;
-}
-#author
