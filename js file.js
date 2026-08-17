@@ -1,8 +1,8 @@
+const button = document.querySelector("button")
 
-
-
-let myNumber ="77";
-myNumber +=3;
-
-console.log(myNumber);
-typeof myNumber;
+function greet(){
+    const name = prompt("What is your name?")
+    const greeting = document.querySelector("#greetings")
+    greeting.textContent = `Hello ${name}, i hope you are doing so good`
+}
+button.addEventListener("click", greet)
