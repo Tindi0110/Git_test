@@ -5,10 +5,16 @@ eyeIcon.addEventListener("click", toggleInput )
 function toggleInput(){
     let currenttype = pwdInput.getAttribute("type");
     if (currenttype === 'password') {
-        pwdInput.setAttribute('type', 'text')
+        
+        eyeIcon.classList.remove('fa-eye-slash');
+        eyeIcon.classList.add('fa-eye');
+        pwdInput.setAttribute('type', 'text');
+
 
     }
     else {
+        eyeIcon.classList.remove('fa-eye');
+        eyeIcon.classList.add('fa-eye-slash');
         pwdInput.setAttribute('type', 'password')
     }
 }
