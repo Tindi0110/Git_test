@@ -1,4 +1,5 @@
-let answer = parseInt('please enter your number...')
-for(let i = 1; i <= answer; i++){
-    console.log(i);
-}
+const a = "Hello";
+const b = "World";
+
+console.log(c);
+
