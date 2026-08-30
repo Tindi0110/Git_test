@@ -9,11 +9,54 @@
 
 </head>
 <body>
-    <label for="search">Search by contact name: </label>
-<input id="search" type="text" />
-<button>Search</button>
+  
+<details>
+    <summary>more information here</summary>
+    <p>hello zariah jade how are you doing baby nakupenda</p>
+</details>
 
-<p></p>
+<form action="/register" method="post">
+    <label for="username">username </label>
+    <input type="text" id="username" name="username" required minlength="3">
+
+    <label for="email" Email></label>
+    <input type="text" id="email" name="email" required>
+    <button type="submit">Register</button>
+</form>
+
+<div class="browser">
+    <label for="Browser" > Choose a browser:</label>
+    <input list="browser" id="browsers" name="browser">
+
+    <datalist id="browser">
+        <option value="chrome">
+        <option value="firefox">
+        <option value="safari">  
+        
+    </datalist>
+</div>
+<div class="box"></div>
+<h3>Hoover over this box here</h3>
+
+<div class="menu">
+    menu
+    <div class="menu-content">
+        <a href="links"> link 1</a>
+        <a href="uji"> link 2</a>
+    </div>
+</div>
+
+<div class="spiner"></div>
+
+<h2>Javascript window</h2>
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = "Browser inner window width: " +
+window.innerWidth + "px<br>" + "Browser inner height: " + window.innerHeight + "px";
+
+document.getElementById("demo").innerHTML = "page location is " + window.location.protocal;
+</script>
 
 </body>
 </html>

@@ -1,4 +1,2 @@
-let x = 4;
-let y = 67
-let z = x + y;
-console.log(z)
+document.getElementById("demo").innerHTML = "Browser inner window width: " +
+window.innerWidth + "px<br>" + "Browser inner height: " + window.innerHeight + "px";
